@@ -1,0 +1,184 @@
+<!-- Coding by CodingLab | www.codinglabweb.com -->
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!----======== CSS ======== -->
+    <link rel="stylesheet" href="../css/all.css">
+
+    <!--========== Icon ============-->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    
+    <!----===== Boxicons CSS ===== -->
+    <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+    
+    <title>Dashboard L&L</title> 
+</head>
+<body>
+    <nav class="sidebar close">
+        <header>
+            <div class="image-text">
+                <span class="image">
+                    <img src="../img/logo.png" alt="">
+                </span>
+
+                <div class="text logo-text">
+                    <span class="name">Lorrayna</span>
+                    <span class="profession">Vendedora</span>
+                </div>
+            </div>
+
+            <i class='bx bx-chevron-right toggle'></i>
+        </header>
+
+        <div class="menu-bar">
+            <div class="menu">
+
+                <li class="search-box">
+                    <i class='bx bx-search icon'></i>
+                    <input type="text" placeholder="Search...">
+                </li>
+
+                <ul class="menu-links">
+                    <li class="nav-link">
+                        <a href="dashboard.html">
+                            <i class='bx bx-home-alt icon' ></i>
+                            <span class="text nav-text">Dashboard</span>
+                        </a>
+                    </li>
+
+                    <li class="nav-link">
+                        <a href="vendas.html">
+                            <i class='bx bx-bar-chart-alt-2 icon' ></i>
+                            <span class="text nav-text">Vendas</span>
+                        </a>
+                    </li>
+
+                    <li class="nav-link">
+                        <a href="notificação.html">
+                            <i class='bx bx-bell icon'></i>
+                            <span class="text nav-text">Notificações</span>
+                        </a>
+                    </li>
+
+                    <li class="nav-link">
+                        <a href="analise.html">
+                            <i class='bx bx-pie-chart-alt icon' ></i>
+                            <span class="text nav-text">Analise</span>
+                        </a>
+                    </li>
+
+                    <li class="nav-link">
+                        <a href="pendentes.html">
+                            <i class='bx bxs-notepad icon'></i>
+                            <span class="text nav-text">Pendentes</span>
+                        </a>
+                    </li>
+
+                    <li class="nav-link">
+                        <a href="carteita.html">
+                            <i class='bx bx-wallet icon' ></i>
+                            <span class="text nav-text">Carteira</span>
+                        </a>
+                    </li>
+
+                </ul>
+            </div>
+
+            <div class="bottom-content">
+                <li class="">
+                    <a href="../index.html">
+                        <i class='bx bx-log-out icon' ></i>
+                        <span class="text nav-text">Logout</span>
+                    </a>
+                </li>
+
+                <li class="mode">
+                    <div class="sun-moon">
+                        <i class='bx bx-moon icon moon'></i>
+                        <i class='bx bx-sun icon sun'></i>
+                    </div>
+                    <span class="mode-text text">Modo dark</span>
+
+                    <div class="toggle-switch">
+                        <span class="switch"></span>
+                    </div>
+                </li>
+                
+            </div>
+        </div>
+
+    </nav>
+
+    <section class="home">
+
+        <div class="principal">
+            
+            <div class="boas-vindas">
+                
+                <div class="nome_admin">
+                    <i class='bx bx-home-alt icon' ></i>
+                    <h2>Dashboard</h2> -
+                    <p>Resumo</p>
+                </div>
+
+            <div class="geral">
+
+                <div class="historico">
+
+                        <div class="his_Loh">
+
+                            <div id="um" class="his-1 tel">
+                                <a href="notificação.html">
+                                    <i class='bx bxl-whatsapp'></i>
+                                    <p>Total de clientes alcançados este mes</p>
+                                    <br>
+                                    <span>598 clintes</span>
+                                </a>
+                            </div>
+
+                            <div id="dois" class="his-1 tel">
+                                <a href="vendas.html">
+                                    <i class='bx bx-bar-chart-alt-2 icon' ></i>
+                                    <p>Total de vendas nos ultimos meses</p>
+                                    <br>
+                                    <span>38 vendas</span>
+                                </a>
+                            </div>
+                            
+
+                            <div id="tres" class="his-1 tel">
+                                <a href="pendentes.html">
+                                    <i class='bx bx-money-withdraw'></i>
+                                    <p>Meta de vendas em reais esse mês</p>
+                                    <br>
+                                    <span>30 mil</span>
+                                </a>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+                <br><br><br><br>
+
+                <div class="nome_admin">
+                    <i class='bx bx-male-female icon'></i>
+                    <h2>Clientes recentes</h2> -
+                    <p>Venda</p>
+                </div>
+
+            </div>
+        </div>
+
+        </div>
+
+    </section>
+
+    <script src="../js/script.js"></script>
+
+</body>
+</html>
