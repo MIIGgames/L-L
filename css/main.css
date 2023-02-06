@@ -73,21 +73,28 @@
 
 
 @media screen and (max-width:768px) {
-    body {
-        width: 100%;
-        height: 100%;
+    .sidebar.close ~ .home{
+        left: 78px;
+        height: 100vh;
     }
-    .home {
-        width: 100%;
-        height: 100%;
-    }
+
     .his_Loh {
         display: flex;
         flex-direction: column;
+        max-width: 1200px;
+        margin: auto;
+        padding: 10px;
     }
 
     .historico .his-1 {
         width: auto;
         margin: auto;
+    }
+
+    .nome_admin {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        align-items: center;
     }
 }
